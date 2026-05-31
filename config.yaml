@@ -13,6 +13,6 @@ memory:
 
 git:
   repo: leaderforge/Hermes-Brain
-  branch: main
+  branch: master
   sync: bidirectional
   commit_interval: 600
