@@ -1,0 +1,18 @@
+model:
+  provider: deepseek
+  model: deepseek-v4-pro
+
+gateway:
+  telegram:
+    enabled: true
+    token: ${TELEGRAM_BOT_TOKEN}
+
+memory:
+  type: persistent
+  sync_interval: 300
+
+git:
+  repo: leaderforge/Hermes-Brain
+  branch: main
+  sync: bidirectional
+  commit_interval: 600
