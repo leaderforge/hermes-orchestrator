@@ -6,6 +6,7 @@ gateway:
   telegram:
     enabled: true
     token: ${TELEGRAM_BOT_TOKEN}
+    allowed_chats: "8753553351"
 
 memory:
   type: persistent
